@@ -14,8 +14,7 @@ pd.set_option('display.width', 1000)  # Set a high enough value for width
 
 
 #DATA INPUT
-income_df = pd.read_csv('Inc_Exp_Data.csv')
-
+income_df = pd.read_csv('Income_Expenditure_Dataset\Inc_Exp_Data.csv')
 # Show all columns in the DataFrame
 pd.set_option('display.max_columns', None)
 
